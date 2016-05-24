@@ -1,0 +1,185 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #82beff;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+  	font-family: Impact, Charcoal, sans-serif;
+  	font-variant: small-caps;
+  	text-decoration: underline;
+  	font-weight: bolder;
+  }
+
+  button {
+	margin: 3px;
+  	display: block;
+  	float: left;
+  	font-weight: bold;
+  	width: 7em;
+  	padding: 0 0 0 0;
+
+  }
+
+ table {
+	margin: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border:none;
+	outline:none;
+
+ }
+
+ th {
+		background-color: #005f96;
+		padding: 3px 10px 3px 10px;
+		color: #f2faff;
+		border:none;
+		outline:none;
+		letter-spacing: 2px;
+		font-weight: lighter;
+}
+
+tr:nth-child(even) {
+	background-color: #009bf4;
+}
+tr:nth-child(odd) {
+	background-color: #0071b2;
+}
+
+ td {
+ 	border:none;
+	outline:none;
+	color: #f2faff;
+	font-size: 0.8em;
+	padding: 1.1em;
+ }
+
+ h2 {
+ 	display: block;
+ 	padding: 10px;
+ 	color: #454545;
+ 	font-weight: bolder;
+ 	border-top: dashed;
+ 	border-bottom: dashed;
+ }
+
+ h3 {
+ 	margin: 40px 0 30px 0;
+ 	display: block;
+ 	text-decoration: underline;
+ 	color: #454545;
+ 	}
+
+ h4 {
+ 	font-weight: 100;
+ 	font-size: 1.1em;
+ 	color: #e0f6ff;
+ }
+
+ ul {
+ 	list-style: none;
+ 	margin-left: 65px;
+ 	padding-left: 80px;
+ 	padding-right: 80px;
+ 	max-width: 980px;
+ }	
+
+
+ li {
+ 	margin: 25px 30px 25px 40px;
+	display: inline-block;
+	padding: 15px;
+	border: solid;
+	border-color: #454545;
+ }
+
+ul, 
+#container, 
+#buttonContainer, 
+#map, 
+#results {
+	margin: 0 auto;
+}
+
+.footerImages {
+	float: left;
+	padding-left: 125px;
+	border:none;
+	outline:none;			
+}
+
+#topbar, 
+#map, 
+#results, 
+#footerDiv {
+	width: 100%;
+}
+
+ #container {
+ 	width: 1200px;
+ 	border-style: groove;
+ 	border: 3px;
+ 	background-color: #e0f6ff;
+ }
+
+ #logoDiv {
+	padding: 15px;
+}
+
+ #topbar {
+ 	background-color: #0071b2;
+	height: 25px;
+	padding-top: 3px;
+}
+
+#buttonContainer {
+	width: 1100px;
+	padding-left: 40px;
+}
+
+#Urca {
+	width: 4em;
+}
+
+#Leblon {
+	width: 5em;
+}
+
+#Copacabana {
+	width: 9em;
+}
+
+#Barra {
+	width: 5em;
+}
+
+#Sao_Conrado {
+	width: 10em;
+}
+
+#map {
+    height: 250px;
+   	margin-bottom: 40px;
+    float: left;
+  }
+
+#results {
+	font-size: 1.2em;
+	padding: 2px 10px 2px 10px;
+}
+
+#pictures {
+	width: 900px;
+	padding-left: 120px;
+}
+
+#footerDiv {
+	height: 180px;
+	background-color: #0071b2;
+	padding-top: 5px;
+	float: left;
+}
